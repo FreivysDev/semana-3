@@ -1,18 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Titillium+Web&display=swap');
 
 :root {
-  --primaryAlphaColor: rgb(232, 28, 79, 0.50);
+  --bgColor: #627575;
+  --bgPrimary: #9cbdb7;
+  --primaryAlphaColor: #8ab0a7;
   --fontTitle: 'Raleway', sans-serif;
   --fontMain: 'Titillium Web', sans-serif;
 }
 
 body {
+  background-color: var(--bgColor);
+  color: var(--bgColor);
   font-family: var(--fontMain);
 }
 
+.main {
+  max-width: 768px;
+  width: 100%;
+}
+
+.nav {
+  background-color: var(--bgPrimary) !important;
+}
 
 .Form-title {
+  color: var(--bgColor);
   font-family: var(--fontTitle);
+}
+
+.icon {
+  color: var(--bgColor);
 }
 
 .navbar-brand img {
